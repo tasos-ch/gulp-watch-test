@@ -2,7 +2,10 @@ const gulp = require('gulp');
 const chokidar = require('chokidar');
 
 
-const JS_SRC = ['./a/**/*.js'];
+const JS_SRC = [
+    './a/**/*.js',
+    './index.js'
+];
 
 
 const watch = function() {
